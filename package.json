@@ -1,0 +1,38 @@
+{
+  "name": "xslt",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "clean": "pnpm '/^clean:[\\w_]+$/'",
+    "clean:build": "rm -rf dist",
+    "lint": "pnpm '/^lint:[\\w_]+$/'",
+    "lint:es": "eslint .",
+    "lint:ts": "tsc --noEmit",
+    "start": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "author": "Yuo Mamoru <m.yuo@cam.hi-ho.ne.jp> (https://restus.co.jp)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "xslt-processor": "^5.0.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@types/adm-zip": "^0.5.8",
+    "@types/node": "^25.6.0",
+    "@typescript-eslint/parser": "^8.59.0",
+    "eslint": "^10.2.1",
+    "eslint-import-resolver-typescript": "^4.4.4",
+    "globals": "^17.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.59.0",
+    "vite": "^8.0.9",
+    "vitest": "^4.1.4"
+  }
+}

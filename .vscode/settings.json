@@ -1,0 +1,35 @@
+{
+  "cSpell.allowCompoundWords": true,
+  "cSpell.ignorePaths": [
+    "coverage",
+    "dist",
+    "docs",
+    "node_modules",
+    "package.json",
+    "package-lock.json",
+    "pnpm-lock.yaml",
+    "vscode-extension",
+    "tsconfig.tsbuildinfo",
+    ".git/{index,*refs,*HEAD}",
+    ".git/{info,lfs,logs,refs,objects}/**",
+    ".gitignore",
+    ".vscode",
+    ".vscode-insiders",
+  ],
+  "cSpell.words": [
+    "kodate",
+    "unstub"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+  },
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.useFlatConfig": true,
+  "eslint.workingDirectories": [
+    { "pattern": "src/*" },
+  ],
+  "extensions.ignoreRecommendations": false,
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+}
