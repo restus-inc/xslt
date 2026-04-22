@@ -24,7 +24,7 @@ export async function main(): Promise<void> {
 
   // 1. Error handling for missing zip file path argument
   if (argv.length < 3) {
-    writeErrorLine('Usage: npm start -- <zip-file-path>')
+    writeErrorLine('Usage: node dist/index.js <zip-file-path>')
     process.exit(1)
   }
   // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
