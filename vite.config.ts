@@ -14,6 +14,8 @@ export default defineConfig({
       external: [
         ...builtinModules,
         ...builtinModules.map(m => `node:${m}`),
+        'adm-zip',
+        'xslt-processor',
       ],
     },
     sourcemap: true,

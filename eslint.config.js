@@ -44,6 +44,7 @@ export default [
         destructuredArrayIgnorePattern: '^_',
       }],
       'class-methods-use-this': 'error',
+      'no-console': 'error',
     },
   },
 ]
